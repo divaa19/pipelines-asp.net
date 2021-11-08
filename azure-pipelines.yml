@@ -16,7 +16,7 @@ variables:
 
   tag: '$(Build.BuildId)'
 
-  azureSubscription: 'b7a3e388-f81a-46b3-b758-5fb5229730f3'
+  azureSubscription: 'Test-Asp-Project'
   webAppName: 'Demoapp-dotnet'
   environmentName: 'Demoapp-dotnet'
   vmImageName: 'ubuntu-latest'
