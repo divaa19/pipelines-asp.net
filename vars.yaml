@@ -1,0 +1,6 @@
+variables:
+  containerRegistry: 'WebappDemo85'
+  imageRepo: 'Demo85'
+  tag: '$(Build.BuildId)'
+  
+  
