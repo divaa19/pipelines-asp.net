@@ -1,5 +1,5 @@
 trigger:
-- feature/deploy-to-AKS
+- deploy-AKS
 
 resources:
 - repo: self
