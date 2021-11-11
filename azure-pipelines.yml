@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-- template: vars.yml
+- template: vars.yaml
 
 stages:
 - stage: Build
