@@ -6,7 +6,7 @@ COPY app/SampleWebApp/*.csproj .
 RUN dotnet restore
 
 # Copy everything else and build website
-COPY SampleWebApp/. .
+COPY app/SampleWebApp/. .
 RUN dotnet publish -c release -o /Web --no-restore
 WORKDIR /WebApp
 COPY /Web ./
