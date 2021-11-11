@@ -35,7 +35,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: '${{ variables.containerRegistry }}'
-        repository: '${{ variables.imageRepo }}'
+        repository: '${{ variables.repository }}'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
