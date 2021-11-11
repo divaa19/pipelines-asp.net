@@ -9,5 +9,5 @@ RUN dotnet restore
 COPY app/SampleWebApp/. .
 RUN dotnet publish -c release -o /Web --no-restore
 WORKDIR /WebApp
-COPY /Web ./
+COPY /Web/. ./
 ENTRYPOINT ["dotnet", "SampleWebApp.dll"]
