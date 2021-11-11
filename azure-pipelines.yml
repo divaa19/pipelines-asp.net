@@ -37,7 +37,7 @@ stages:
         containerRegistry: '${{ variables.containerRegistry }}'
         repository: '${{ variables.repository }}'
         command: 'buildAndPush'
-        Dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
+        Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
           '${{ variables.tag }}'
     
