@@ -1,6 +1,6 @@
 variables:
   containerRegistry: 'devopsDemo85'
-  imageRepo: 'Demo85'
+  repository: 'Demo85'
   tag: '$(Build.BuildId)'
   
   
